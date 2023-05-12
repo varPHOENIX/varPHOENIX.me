@@ -1454,13 +1454,7 @@ both Safari and Firefox
         color: azure;
     }
     
-    .name .cosmic:hover::before {
-        font-size: calc(9.10938vw + 7.5px) !important;
-    }
-    
-    .Project-Lab .name span {
-        font-size: calc(9.10938vw + 7.5px) !important;
-    }
+   
     
     @media (max-width: 470px) {
         .Project-Lab .adaptive-name {
