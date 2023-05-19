@@ -1464,6 +1464,10 @@ both Safari and Firefox
             font-size: calc(8.3938vw + 25px);
             position: relative;
         }
+        :root {
+        --size: 150px;
+        --font-size: 25px !important;
+    	}
         .Project-Lab .name {
             visibility: hidden !important;
             position: absolute;
