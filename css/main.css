@@ -1416,7 +1416,8 @@ both Safari and Firefox
         background: black;
         overflow: hidden;
         width: 100%;
-        border: 1px solid white;
+        border-bottom: 1px solid white;
+        border-top: 1px solid white;
         z-index: 10;
         /* margin-top: 100px; */
         padding: 8px 0px 8px 0px;
