@@ -1679,6 +1679,7 @@ both Safari and Firefox
             font-size: calc(2.83333vw + 19px) !important
         }
         .cards_wrap__card span {
+            padding-top: 0vh !important;
             font-size: calc(2.83333vw + 25px) !important
         }
         .cards_wrap__card .card-main-title {
@@ -1697,6 +1698,7 @@ both Safari and Firefox
     
     .cards_wrap__card span {
         margin-top: 1rem;
+        padding-top: 5vh;
         display: inline-block;
         font-size: 6vw;
         font-family: Space;
