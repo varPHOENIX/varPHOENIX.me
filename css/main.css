@@ -1519,6 +1519,7 @@ both Safari and Firefox
         position: relative;
         width: 100%;
         min-height: 100vh;
+        margin-top: 5vh;
     }
     
     .SampleCards:nth-child(1) {
