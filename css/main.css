@@ -994,7 +994,8 @@ both Safari and Firefox
         justify-content: center;
         text-align: center;
         position: relative;
-        padding-top: 10vh;
+        padding-top: 8vh;
+        padding-bottom: 10vh;
         font-family: Noodle;
         letter-spacing: 3px;
     }
