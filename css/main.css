@@ -1424,6 +1424,7 @@ both Safari and Firefox
         padding: 8px 0px 8px 0px;
     }
     
+    
     .marquee {
         font-size: calc(1.50938vw + 20px);
         font-family: sans-serif;
@@ -1439,7 +1440,7 @@ both Safari and Firefox
     }
     
     .marquee:after {
-        content: "WEB DESIGN - FRONTEND - DESIGN - MOTION DESIGN - POSTER DESIGN - MARKETING - STRATEGIC -";
+        content: "WEB DESIGN - FRONTEND - DESIGN - LOGO DESIGN - POSTER DESIGN - MARKETING - STRATEGIC -";
     }
     
     @keyframes marquee {
@@ -1449,6 +1450,192 @@ both Safari and Firefox
         100% {
             transform: translateX(-50%)
         }
+    }
+    
+    .rmarquee-container {
+        display: flex;
+        align-items: center;
+        background: black;
+        overflow: hidden;
+        width: 100%;
+        border: 1px solid white;
+        z-index: 10;
+        padding: 8px 0px 8px 0px;
+    }
+    
+    .rmarquee {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: rmarquee 14.5s infinite linear;
+    }
+    
+    @media (min-width: 1000px) {
+        .rmarquee {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .rmarquee:after {
+        content: "WEB DESIGN - FRONTEND - DESIGN - LOGO DESIGN - POSTER DESIGN - MARKETING - STRATEGIC -";
+    }
+    
+    @keyframes rmarquee {
+        0% {
+            transform: translateX(-50%)
+        }
+        100% {
+            transform: translateX(0)
+        }
+    }
+    
+    .marquee:after {
+        content: "WEB DESIGN - FRONTEND - DESIGN - LOGO DESIGN - POSTER DESIGN - MARKETING - STRATEGIC -";
+    }
+    
+    .rmarquee1 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: rmarquee 14.5s infinite linear;
+    }
+    
+    @media (min-width: 1000px) {
+        .rmarquee1 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .rmarquee1:after {
+        content: "ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME -";
+    }
+    
+    .marquee2 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: marquee 14.5s infinite linear;
+    }
+    
+    @media (min-width: 1000px) {
+        .marquee2 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .marquee2:after {
+        content: "OUR TEAM - OUR TEAM - OUR TEAM - OUR TEAM - OUR TEAM - OUR TEAM - OUR TEAM -";
+    }
+    
+    .rmarquee3 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: rmarquee 14.5s infinite linear;
+    }
+    
+    @media (min-width: 1000px) {
+        .marquee6 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .marquee6:after {
+        content: "SERVICE - SERVICE - SERVICE - SERVICE - SERVICE - SERVICE - SERVICE -";
+    }
+    
+    .marquee6 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: marquee 14.5s infinite linear;
+    }
+    
+    @media (min-width: 1000px) {
+        .rmarquee3 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .rmarquee3:after {
+        content: "OUR TEAM - OUR TEAM - OUR TEAM - OUR TEAM - OUR TEAM - OUR TEAM - OUR TEAM -";
+    }
+    
+    @media (min-width: 1000px) {
+        .rmarquee5 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .rmarquee5:after {
+        content: "PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB -";
+    }
+    
+    .rmarquee5 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: rmarquee 14.5s infinite linear;
+    }
+    
+    @media (min-width: 1000px) {
+        .marquee4 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .marquee4:after {
+        content: "PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB -";
+    }
+    
+    .marquee4 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: marquee 14.5s infinite linear;
+    }
+    
+    @media (min-width: 1000px) {
+        .rmarquee7 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .rmarquee7:after {
+        content: "SERVICE - SERVICE - SERVICE - SERVICE - SERVICE - SERVICE - SERVICE -";
+    }
+    
+    .rmarquee7 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: rmarquee 14.5s infinite linear;
+    }
+    
+    @media (min-width: 1000px) {
+        .marquee8 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .marquee8:after {
+        content: "WRITE ME - WRITE ME - WRITE ME - WRITE ME - WRITE ME - WRITE ME - WRITE ME -";
+    }
+    
+    .marquee8 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: marquee 14.5s infinite linear;
     }
     
     .about-visual {
