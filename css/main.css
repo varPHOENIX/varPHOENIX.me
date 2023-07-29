@@ -1601,6 +1601,24 @@ both Safari and Firefox
         white-space: nowrap;
         animation: marquee 14.5s infinite linear;
     }
+     @media (min-width: 1000px) {
+        .marquee45 {
+            font-size: calc(2.50938vw + 5px)!important;
+        }
+    }
+    
+    .marquee45:after {
+        content: "PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB - PROJECT-LAB -";
+    }
+    
+    .marquee45 {
+        font-size: calc(1.50938vw + 20px);
+        font-family: sans-serif;
+        color: #fff;
+        white-space: nowrap;
+        animation: marquee 14.5s infinite linear;
+    }
+    
     
     @media (min-width: 1000px) {
         .rmarquee7 {
