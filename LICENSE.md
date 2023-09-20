@@ -1,0 +1,4 @@
+Prohibition on:
+  COPY CODE
+  USING THE CODE
+  COMMERCIAL USE
