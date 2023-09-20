@@ -1762,7 +1762,7 @@ both Safari and Firefox
     .SampleCards:nth-child(6) {
         background-position: center;
         background-size: 100%;
-        background-image: url("../assets/fragrance.png");
+        background-image: url("assets/fragrance.png");
     }
     
     .BumperSection {
